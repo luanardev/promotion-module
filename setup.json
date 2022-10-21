@@ -1,0 +1,16 @@
+{
+    "name": "Staff Promotion",
+
+    "permissions": [
+		"create_promotion_form",
+        "view_promotion_form",
+        "update_promotion_form",
+        "delete_promotion_form",
+        "perform_peer_review",
+        "perform_head_review",
+        "perform_dean_review",
+        "create_promotion_appraiser",
+        "view_staff_promotions",
+        "view_promotion_report"
+    ]
+}

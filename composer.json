@@ -1,0 +1,27 @@
+{
+    "name": "luanardev/promotion-module",
+    "type": "laravel-module",
+    "description": "Lumis Promotion Module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Simpokolwe",
+            "email": "bsimpokolwe@luanar.ac.mw"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Luanardev\\Lumis\\Promotion\\Providers\\PromotionServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Luanardev\\Lumis\\Promotion\\": ""
+        }
+    }
+}

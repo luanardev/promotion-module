@@ -1,0 +1,13 @@
+{
+    "name": "Promotion",
+    "alias": "promotion",
+    "description": "",
+    "keywords": [],
+    "priority": 5,
+    "providers": [
+        "Luanardev\\Lumis\\Promotion\\Providers\\PromotionServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
