@@ -8,25 +8,25 @@
 
 <!--<li class="nav-header">STAFF FUNCTIONS</li>-->
 
-@can('create_promotion_form')
+
 <li class="nav-item">
 	<a href="{{route('promotion.application.create')}}" class="nav-link">
 		<i class="nav-icon fas fa-plus-circle"></i>
 		<p>Apply Now</p>
 	</a>
 </li>
-@endcan
 
-@can('view_promotion_form')
+
+
 <li class="nav-item">
 	<a href="{{route('promotion.application.index')}}" class="nav-link">
 		<i class="nav-icon fas fa-folder-open"></i>
 		<p>My Applications</p>
 	</a>
 </li>
-@endcan
 
-@can('perform_peer_review')
+
+@can('execute-peer-review')
 <li class="nav-item">
 	<a href="{{route('promotion.peer.index')}}" class="nav-link">
 		<i class="nav-icon fas fa-users"></i>
@@ -37,7 +37,7 @@
 
 <!--<li class="nav-header">SUPERVISOR FUNCTIONS</li>-->
 
-@can('perform_head_review')
+@can('execute-head-review')
 <li class="nav-item">
 	<a href="{{route('promotion.head.index')}}" class="nav-link">
 		<i class="nav-icon fas fa-gavel"></i>
@@ -46,7 +46,7 @@
 </li>
 @endcan
 
-@can('perform_dean_review')
+@can('execute-dean-review')
 <li class="nav-item">
 	<a href="#" class="nav-link">
 		<i class="nav-icon fas fa-gavel"></i>
@@ -58,7 +58,7 @@
 
 <!--<li class="nav-header">ADMIN FUNCTIONS</li>-->
 
-@can('create_promotion_appraiser')
+@can('create-promotion-appraiser')
 <li class="nav-item">
 	<a href="{{route('promotion.appraiser.index')}}" class="nav-link">
 		<i class="nav-icon fas fa-cog"></i>
@@ -67,7 +67,7 @@
 </li>
 @endcan
 
-@can('view_staff_promotions')
+@can('read-promotion')
 <li class="nav-item">
 	<a href="#" class="nav-link">
 		<i class="nav-icon fas fa-folder"></i>
@@ -76,12 +76,6 @@
 </li>
 @endcan
 
-<li class="nav-item">
-	<a href="#" class="nav-link">
-		<i class="nav-icon fas fa-calendar"></i>
-		<p>Promotion Calendar</p>
-	</a>
-</li>
 
 
 

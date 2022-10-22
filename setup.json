@@ -2,15 +2,17 @@
     "name": "Staff Promotion",
 
     "permissions": [
-		"create_promotion_form",
-        "view_promotion_form",
-        "update_promotion_form",
-        "delete_promotion_form",
-        "perform_peer_review",
-        "perform_head_review",
-        "perform_dean_review",
-        "create_promotion_appraiser",
-        "view_staff_promotions",
-        "view_promotion_report"
+		"create-promotion",
+        "read-promotion",
+        "update-promotion",
+        "delete-promotion",
+        "execute-peer-review",
+        "execute-head-review",
+        "execute-dean-review",
+        "create-promotion-appraiser",
+        "read-promotion-appraiser",
+        "update-promotion-appraiser",
+        "delete-promotion-appraiser",
+        "read-promotion-report"
     ]
 }
